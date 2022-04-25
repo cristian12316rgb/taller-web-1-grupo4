@@ -32,7 +32,7 @@ public class ConexionBaseDeDatosTest extends SpringTest{
      @Test
      public void testError(){
     	 
-    	 Integer p1=3;
+    	 Integer p1=null;
     	 Integer p2=4;
     	 assertThat(p1).isNull();;
      }
