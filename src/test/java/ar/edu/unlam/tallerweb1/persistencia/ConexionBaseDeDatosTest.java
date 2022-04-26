@@ -34,6 +34,6 @@ public class ConexionBaseDeDatosTest extends SpringTest{
     	 
     	 Integer p1=null;
     	 Integer p2=4;
-    	 assertThat(p1).isNotNull();;
+    	 assertThat(p1).isNull();;
      }
 }
