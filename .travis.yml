@@ -1,11 +1,4 @@
 language: java
 script: mvn clean test
-notifications:
-    email:
-        recipients:
-            -jessica_dlg@live.com.ar
-            -crquipildor@alumno.unlam.edu.ar
-            -joellasalas77@gmail.com
-            -xd_dany@me.com
 jdk:
   - openjdk11
