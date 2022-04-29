@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-    <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,11 +9,11 @@
 </head>
 <body>
 
-  <a href="vista2">hola</a>
+  <h1>Planes</h1>>
   
-   
-    	<p>${mensaje1}${mensaje2} </p>
-
+  <h2><a href="vistaPlan1">Plan 1</a>> <h2/>
+   <h2><a href="vistaPlan2">Plan 2</a>> <h2/>
+    <h2><a href="vistaPlan3">Plan 3</a>> <h2/>
 
 </body>
 </html>

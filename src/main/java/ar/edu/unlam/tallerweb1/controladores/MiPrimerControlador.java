@@ -30,11 +30,11 @@ public class MiPrimerControlador {
 	}
 	
 	@RequestMapping (path="/vista3" , method=RequestMethod.GET)
-	public ModelAndView hola2 (@RequestParam (value ="op1")Integer ab , @RequestParam(value= "op2")Integer parametro2){
+	public ModelAndView hola2 (@RequestParam (value ="op1")Integer parametro1 , @RequestParam(value= "op2")Integer parametro2){
 		
 		ModelMap modelo =new ModelMap();
 		
-		Integer resultado =ab+parametro2;
+		Integer resultado =parametro1+parametro2;
 		
 		modelo.put("resultado",resultado);
 		
